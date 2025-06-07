@@ -38,7 +38,7 @@
             </td>
             <td>
                 <b>Objetivo:</b>
-                <p>Mario Kart is a series of racing games developed and published by Nintendo. Our challenge is to create the game logic to simulate Mario Kart-style races, taking into account the rules and mechanics listed below.</p>
+                <p>Mario Kart is a series of racing games developed and published by Nintendo. Our challenge is to create the game logic to simulate Mario Kart-style races, with rules and mechanics listed below.</p>
             </td>
         </tr>
     </table>
