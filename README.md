@@ -6,12 +6,11 @@
 
 <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-objective">Objective</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-rules">Rules</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-players">Players</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-how-to-run">How to Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#support">Support</a>
 
@@ -42,6 +41,31 @@
             </td>
         </tr>
     </table>
+
+<br>
+
+## 🎮 Rules
+
+### **🧍‍♂️ Players**
+
+- [ ] The computer must receive two characters to race, each represented by an object.
+
+<br>
+
+### **🛣️ Tracks**
+
+- [ ] The characters will race on a random track with 5 rounds  
+- [ ] In each round, a section of the track will be randomly selected: **straight**, **curve**, or **duel**  
+  - [ ] If the section is a **STRAIGHT**, each player rolls a 6-sided die and adds their **SPEED** attribute. The highest total earns 1 point  
+  - [ ] If the section is a **CURVE**, each player rolls a 6-sided die and adds their **HANDLING** attribute. The highest total earns 1 point  
+  - [ ] If the section is a **DUEL**, each player rolls a 6-sided die and adds their **POWER** attribute. The player with the lower total loses 1 point  
+  - [ ] No player can have a negative score (below 0)
+
+<br>
+
+### **🏁 Winning Condition**
+
+- [ ] At the end of the race, the player with the most points wins
 
 <br>
 
