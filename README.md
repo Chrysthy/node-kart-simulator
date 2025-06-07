@@ -46,13 +46,13 @@
 
 ## 🎮 Rules
 
-### **🧍‍♂️ Players**
+### ⚔️ Players
 
 - [x] The computer must receive two characters to race, each represented by an object.
 
 <br>
 
-### **🛣️ Tracks**
+### 🛣️ Tracks
 
 - [x] The characters will race on a random track with 5 rounds.
 - [x] In each round, a section of the track will be randomly selected: **straight**, **curve**, or **duel**.
@@ -63,13 +63,13 @@
 
 <br>
 
-### **🏁 Winning Condition**
+### 🏁 Winning Condition
 
 - [x] At the end of the race, the player with the most points wins.
 
 <br>
 
-## 🏎️ Players
+## 👥 Players
 
 <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
         <tr>
