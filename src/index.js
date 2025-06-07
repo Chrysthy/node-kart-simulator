@@ -41,13 +41,22 @@ async function getRandomBlock() {
 
 async function playRaceEngine(character1, character2) {
     for (let i = 1; i <= 5; i++) {
-        console.log(`🏁 Rodada ${i} \n`);
+        console.log(`🏁 Rodada ${i}`);
 
+        
         //sortear bloco
-
         let block = await getRandomBlock();
         console.log(`🎲 Bloco Sorteado: ${block} \n`);
-        
+
+
+        //rolar os dados
+        let diceResult1 = await rollDice();
+        let diceResult2 = await rollDice();
+
+
+        //teste de habilidade
+        let totalTestSkill1 = 0;
+        let totalTestSkill2 = 0;
     }
 }
 
