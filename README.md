@@ -4,7 +4,8 @@
 
 <p align="center">
 
-<a href="#-players">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-players">Players</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -20,6 +21,26 @@
 </p>
 
 <br>
+
+## 📸 Screenshots
+
+<img src=".github/gif-do-projeto.gif" alt="gif do projeto">
+
+<br>
+
+  <table>
+        <tr>
+            <td>
+                <img src="./docs/header.gif" alt="Mario Kart" width="200">
+            </td>
+            <td>
+                <b>Objetivo:</b>
+                <p>Mario Kart é uma série de jogos de corrida desenvolvida e publicada pela Nintendo. Nosso desafio será criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas abaixo.</p>
+            </td>
+        </tr>
+    </table>
+
+
 
 <h2>Players</h2>
       <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
@@ -84,3 +105,6 @@
     </table>
 
 <p></p>
+
+
+## ⚙ How to Run
