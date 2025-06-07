@@ -1,4 +1,4 @@
-<h1 align="center">Node Kart Simulator 🏁</h1>
+<h1 align="center">Node Mario Kart Simulator 🏁</h1>
 
 <p align="center"> A fun and dynamic racing logic simulator inspired by the classic Mario Kart series.</p>
 
