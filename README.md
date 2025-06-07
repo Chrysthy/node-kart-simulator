@@ -38,16 +38,16 @@
             </td>
             <td>
                 <b>Objetivo:</b>
-                <p>Mario Kart é uma série de jogos de corrida desenvolvida e publicada pela Nintendo. Nosso desafio será criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas abaixo.</p>
+                <p>Mario Kart is a series of racing games developed and published by Nintendo. Our challenge is to create the game logic to simulate Mario Kart-style races, taking into account the rules and mechanics listed below.</p>
             </td>
         </tr>
     </table>
 
-
+<br>
 
 ## 🏎️ Players
 
-      <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
+<table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
         <tr>
             <td style="border: 1px solid black; text-align: center;">
                 <p>Mario</p>
@@ -108,7 +108,6 @@
         </tr>
     </table>
 
-<p></p>
-
+<br>
 
 ## ⚙ How to Run
