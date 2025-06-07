@@ -17,3 +17,10 @@ const player2 = {
 async function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
+
+//Função auto-invocada
+(async function main() {
+    console.log("oi");
+    
+})();
+
