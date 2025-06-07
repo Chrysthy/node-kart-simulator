@@ -5,6 +5,7 @@
 <p align="center">
 
 <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-objective">Objective</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-players">Players</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -28,6 +29,8 @@
 
 <br>
 
+## 🧭 Objective
+
   <table>
         <tr>
             <td>
@@ -42,7 +45,8 @@
 
 
 
-<h2>Players</h2>
+## 🏎️ Players
+
       <table style="border-collapse: collapse; width: 800px; margin: 0 auto;">
         <tr>
             <td style="border: 1px solid black; text-align: center;">
