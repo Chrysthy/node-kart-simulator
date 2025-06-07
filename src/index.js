@@ -43,7 +43,7 @@ async function playRaceEngine(character1, character2) {
     for (let i = 1; i <= 5; i++) {
         console.log(`🏁 Rodada ${i}`);
 
-        
+
         //sortear bloco
         let block = await getRandomBlock();
         console.log(`🎲 Bloco Sorteado: ${block} \n`);
@@ -57,8 +57,25 @@ async function playRaceEngine(character1, character2) {
         //teste de habilidade
         let totalTestSkill1 = 0;
         let totalTestSkill2 = 0;
-    }
-}
+
+
+        if (block === "RETA") {
+            totalTestSkill1 = diceResult1 + character1.speed;
+            totalTestSkill2 = diceResult2 + character2.speed;
+
+        };
+
+        if (block === "CURVA") {
+            totalTestSkill1 = diceResult1 + character1.handling;
+            totalTestSkill2 = diceResult2 + character2.handling;
+        };
+
+        if (block === "CONFRONTO") {
+            totalTestSkill1 = diceResult1 + character1.power;
+            totalTestSkill2 = diceResult2 + character2.power;
+        };
+    };
+};
 
 
 //Função auto-invocada
