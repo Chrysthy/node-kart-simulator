@@ -18,6 +18,14 @@ async function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
 
+async function playRaceEngine(character1, character2) {
+    for (let i = 1; i <= 5; i++) {
+        console.log(`🏁 Rodada ${i} \n`);
+        
+        //sortear bloco
+    }
+}
+
 
 //Função auto-invocada
 (async function main() {
@@ -25,9 +33,11 @@ async function rollDice() {
         `🏁 Bem vindo(a) ao jogo de corrida!\n`
     )
 
-    console.log(`👥 Corredores: ${player1.name} vs ${player2.name} \n`);
+    console.log(`✨ Corredores: ${player1.name} vs ${player2.name} \n`);
 
-    console.log(`🚦Começando a corrida...`);
+    console.log(`🚦Começando a corrida... \n`);
+
+    await playRaceEngine(player1, player2);
         
 })();
 
