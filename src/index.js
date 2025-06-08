@@ -3,11 +3,11 @@ import readlineSync from "readline-sync";
 
 let personagem1 = parseInt(
     readlineSync.question(
-        "\nEscolha seu primeiro personagem:\n \n1 - Mario \n2 - Luigi  \n3 - Peach \n4 - Yoshi \n5 - Bowser \n6 - DonKey Kong \n\nDigite 1, 2, 3, 4, 5 ou 6 : \n"));
+        "\n⏳ Escolha seu primeiro personagem:\n \n1 - Mario \n2 - Luigi  \n3 - Peach \n4 - Yoshi \n5 - Bowser \n6 - DonKey Kong \n\nDigite 1, 2, 3, 4, 5 ou 6 : \n"));
 
 let personagem2 = parseInt(
     readlineSync.question(
-        "\nEscolha seu segundo personagem:\n \n1 - Mario \n2 - Luigi  \n3 - Peach \n4 - Yoshi \n5 - Bowser \n6 - DonKey Kong \n\nDigite 1, 2, 3, 4, 5 ou 6 : \n"));
+        "\n⏳ Escolha seu segundo personagem:\n \n1 - Mario \n2 - Luigi  \n3 - Peach \n4 - Yoshi \n5 - Bowser \n6 - DonKey Kong \n\nDigite 1, 2, 3, 4, 5 ou 6 : \n"));
 
 const player1 = {
     name: personagens[parseInt(personagem1) - 1].name,
@@ -154,7 +154,7 @@ async function playRaceEngine(character1, character2) {
                 console.log(`\n🤝 Nenhum ponto foi perdido no confronto, pois não há pontos suficientes!`);
             }
 
-            console.log(powerResult1 === powerResult2 ? `🤝 Empate no confronto! Nenhum ponto foi perdido.` : "");
+            console.log(powerResult1 === powerResult2 ? `\n🤝 Empate no confronto! Nenhum ponto foi perdido.` : "");
 
         };
 
@@ -189,7 +189,7 @@ async function declareWinner(character1, character2) {
         console.log(`\n🏆 ${character2.name} é o(a) grande vencedor(a)! 🎉\n`);
 
     } else {
-        console.log(`\n🤝 A corrida terminou em empate! Dispute novamente a corrida! 🏁\n`);
+        console.log(`\n🤝 Que disputa acirrada! Que tal uma revanche para decidir o vencedor? 🏁\n`);
     }
 
 }
@@ -198,7 +198,7 @@ async function declareWinner(character1, character2) {
 //Função auto-invocada
 (async function main() {
     console.log(
-        `🏁 Bem vindo(a) ao jogo de corrida!\n`
+        `\n🏁 Bem vindo(a) ao jogo de corrida!\n`
     )
 
     console.log(`✨ Corredores: ${player1.name} vs ${player2.name} \n`);
