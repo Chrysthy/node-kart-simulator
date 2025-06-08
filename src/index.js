@@ -1,18 +1,30 @@
+import { personagens } from "./personagens.js";
+import readlineSync from "readline-sync";
+
+let personagem1 = parseInt(
+    readlineSync.question(
+        "\nEscolha seu primeiro personagem:\n \n1 - Mario \n2 - Luigi  \n3 - Peach \n4 - Yoshi \n5 - Bowser \n6 - DonKey Kong \n\nDigite 1, 2, 3, 4, 5 ou 6 : \n"));
+
+let personagem2 = parseInt(
+    readlineSync.question(
+        "\nEscolha seu segundo personagem:\n \n1 - Mario \n2 - Luigi  \n3 - Peach \n4 - Yoshi \n5 - Bowser \n6 - DonKey Kong \n\nDigite 1, 2, 3, 4, 5 ou 6 : \n"));
+
 const player1 = {
-    name: "Mario",
-    speed: 4,
-    handling: 3,
-    power: 3,
+    name: personagens[parseInt(personagem1) - 1].name,
+    speed: personagens[parseInt(personagem1) - 1].speed,
+    handling: personagens[parseInt(personagem1) - 1].handling,
+    power: personagens[parseInt(personagem1) - 1].power,
     score: 0
 };
 
 const player2 = {
-    name: "Luigi",
-    speed: 3,
-    handling: 4,
-    power: 4,
+    name: personagens[parseInt(personagem2) - 1].name,
+    speed: personagens[parseInt(personagem2) - 1].speed,
+    handling: personagens[parseInt(personagem2) - 1].handling,
+    power: personagens[parseInt(personagem2) - 1].power,
     score: 0
 };
+
 
 async function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
@@ -137,6 +149,11 @@ async function playRaceEngine(character1, character2) {
                 console.log(`\n⚔️  ${character2.name} venceu o confronto e fez ${character1.name} perder um ponto! 🐢`);
             }
 
+            // Se ambos os resultados forem iguais, não há perda de pontos
+            if (powerResult1 && powerResult2 <= 0) {
+                console.log(`\n🤝 Nenhum ponto foi perdido no confronto, pois não há pontos suficientes!`);
+            }
+
             console.log(powerResult1 === powerResult2 ? `🤝 Empate no confronto! Nenhum ponto foi perdido.` : "");
 
         };
@@ -161,15 +178,15 @@ async function playRaceEngine(character1, character2) {
 
 async function declareWinner(character1, character2) {
     console.log(`\n🏁 A corrida terminou! 🏁\n`);
-    console.log("Resultados finais:");
+    console.log("Resultados final\n");
     console.log(`${character1.name}: ${character1.score} ponto(s)`);
     console.log(`${character2.name}: ${character2.score} ponto(s)`);
 
     if (character1.score > character2.score) {
-        console.log(`\n🏆 ${character1.name} é o grande vencedor! 🎉\n`);
+        console.log(`\n🏆 ${character1.name} é o(a) grande vencedor(a)! 🎉\n`);
 
     } else if (character2.score > character1.score) {
-        console.log(`\n🏆 ${character2.name} é o grande vencedor! 🎉\n`);
+        console.log(`\n🏆 ${character2.name} é o(a) grande vencedor(a)! 🎉\n`);
 
     } else {
         console.log(`\n🤝 A corrida terminou em empate! Dispute novamente a corrida! 🏁\n`);
