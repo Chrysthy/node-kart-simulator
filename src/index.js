@@ -111,6 +111,24 @@ async function playRaceEngine(character1, character2) {
             let powerResult1 = diceResult1 + character1.power;
             let powerResult2 = diceResult2 + character2.power;
         };
+
+
+        //Verificando o vencedor 
+        if (totalTestSkill1 > totalTestSkill2) {
+            console.log(`\n⚔️  ${character1.name} marcou um ponto!`);
+            character1.score++;
+            
+        } else if (totalTestSkill2 > totalTestSkill1) {
+            console.log(`\n⚔️  ${character2.name} marcou um ponto!`);
+            character2.score++;
+
+        } else {
+            console.log(`🤝 Empate na rodada!`);
+        }
+
+        console.log("_______________________________________________________");
+        
+        // console.log(`\n🏆 Placar Atual: ${character1.name} ${character1.score} x ${character2.name} ${character2.score} \n`);
     };
 };
 
