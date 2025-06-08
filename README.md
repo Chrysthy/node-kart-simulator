@@ -132,6 +132,29 @@
 
 <br>
 
+## ✨ Features
+
+- Mario Kart-style Racing Simulation: Simulates a race inspired by the classic Mario Kart series, with turn-based logic and character stats.
+- Playable Characters: Play as Mario, Luigi, Peach, Yoshi, Bowser, or Donkey Kong, each with defined stats for Speed, Handling, and Power.
+- Race System: Races take place over 5 rounds, with each round randomly selecting a track section: straight, curve, or duel.
+    - **Straight:** Players roll a die and add their Speed stat.
+    - **Curve:** Players roll a die and add their Handling stat.
+    - **Duel:** Players roll a die and add their Power stat; the loser loses a point (never below zero).
+- Scoring and Victory: The player with the most points at the end of 5 rounds wins. Scores cannot go below zero.
+- Terminal Interface: The game is run and played entirely in the terminal, with prompts and results displayed after each round.
+- Replayability: Simply re-run the command to start a new race.
+
+<br> 
+
+## 🛠 Technologies
+
+- Node.js
+- JavaScript
+- readline-sync: For terminal-based user input and interactivity.
+- npm 
+
+<br> 
+
 ## ⚙ How to Run
 
 ### Requirements
