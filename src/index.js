@@ -162,17 +162,17 @@ async function playRaceEngine(character1, character2) {
 async function declareWinner(character1, character2) {
     console.log(`\n🏁 A corrida terminou! 🏁\n`);
     console.log("Resultados finais:");
-    console.log(`${character1.name}: ${character1.score} pontos`);
-    console.log(`${character2.name}: ${character2.score} pontos`);
+    console.log(`${character1.name}: ${character1.score} ponto(s)`);
+    console.log(`${character2.name}: ${character2.score} ponto(s)`);
 
-    if (character1, score > character2.score) {
-        console.log(`\n🏆 ${character1.name} é o grande vencedor! 🎉`);
+    if (character1.score > character2.score) {
+        console.log(`\n🏆 ${character1.name} é o grande vencedor! 🎉\n`);
 
     } else if (character2.score > character1.score) {
-        console.log(`\n🏆 ${character2.name} é o grande vencedor! 🎉`);
+        console.log(`\n🏆 ${character2.name} é o grande vencedor! 🎉\n`);
 
     } else {
-        console.log(`\n🤝 A corrida terminou em empate! Ambos os corredores são vencedores! 🎉`);
+        console.log(`\n🤝 A corrida terminou em empate! Dispute novamente a corrida! 🏁\n`);
     }
 
 }
