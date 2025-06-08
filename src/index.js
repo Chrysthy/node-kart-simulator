@@ -40,21 +40,21 @@ async function getRandomBlock() {
 }
 
 
-async function logRollResult(chacaracterName, block, diceResult) {
+async function logRollResult(chacaracterName, block, diceResult, attribute) {
 
-    console.log(`${chacaracterName} rolou um dado de ${block} - ${diceResult}`);
-
+    console.log(`${chacaracterName} 🎲 rolou o dado de ${block}: ${diceResult}. Ponto de habilidade: ${attribute}. Somatório Final = ${diceResult + attribute}`);   
+    //passando uma expressão (cálculo) dentro do template string
 }
 
 
 async function playRaceEngine(character1, character2) {
     for (let i = 1; i <= 5; i++) {
-        console.log(`🏁 Rodada ${i}`);
+        console.log(`\n 🏁 Rodada ${i} \n`);
 
 
         //sortear bloco
         let block = await getRandomBlock();
-        console.log(`🎲 Bloco Sorteado: ${block} \n`);
+        console.log(`🥁 Bloco Sorteado: ${block} \n`);
 
 
         //rolar os dados
@@ -78,7 +78,7 @@ async function playRaceEngine(character1, character2) {
                 character1.speed
             );
 
-               await logRollResult(
+            await logRollResult(
                 character2.name,
                 "velocidade",
                 diceResult2,
@@ -98,7 +98,7 @@ async function playRaceEngine(character1, character2) {
                 character1.handling
             );
 
-               await logRollResult(
+            await logRollResult(
                 character2.name,
                 "manobrabilidade",
                 diceResult2,
