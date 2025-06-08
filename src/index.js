@@ -178,7 +178,7 @@ async function playRaceEngine(character1, character2) {
 
 async function declareWinner(character1, character2) {
     console.log(`\n🏁 A corrida terminou! 🏁\n`);
-    console.log("Resultados final\n");
+    console.log("Resultado final\n");
     console.log(`${character1.name}: ${character1.score} ponto(s)`);
     console.log(`${character2.name}: ${character2.score} ponto(s)`);
 
