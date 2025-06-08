@@ -132,6 +132,15 @@
 
 <br>
 
+## 🛠 Technologies
+
+- Node.js
+- JavaScript
+- readline-sync: For terminal-based user input and interactivity.
+- npm 
+
+<br> 
+
 ## ✨ Features
 
 - Mario Kart-style Racing Simulation: Simulates a race inspired by the classic Mario Kart series, with turn-based logic and character stats.
@@ -143,15 +152,6 @@
 - Scoring and Victory: The player with the most points at the end of 5 rounds wins. Scores cannot go below zero.
 - Terminal Interface: The game is run and played entirely in the terminal, with prompts and results displayed after each round.
 - Replayability: Simply re-run the command to start a new race.
-
-<br> 
-
-## 🛠 Technologies
-
-- Node.js
-- JavaScript
-- readline-sync: For terminal-based user input and interactivity.
-- npm 
 
 <br> 
 
