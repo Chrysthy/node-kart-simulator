@@ -201,3 +201,8 @@
 
 **Tip:**  
 If you want to restart the race, simply run `node src/index.js` again.
+
+<br>
+
+## 🫱🏻‍🫲🏻 Contributing
+<p> Contributions, issues, and feature requests are welcome! Please, feel free to do it! 😉 </p>
